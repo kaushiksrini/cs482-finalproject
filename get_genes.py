@@ -40,5 +40,5 @@ nbp_geneDict = {}
 getGenes(data_nbp, nbp_geneDict)
 getGenes(data_bp, bp_geneDict)
 
-writeFile(bp_geneDict, 'bp_genes.csv')
-writeFile(nbp_geneDict, 'nbp_genes.csv')
+writeFile(bp_geneDict, 'gene-datasets/bp_genes.csv')
+writeFile(nbp_geneDict, 'gene-datasets/nbp_genes.csv')
